@@ -1,0 +1,899 @@
+:root{
+    --blue: #2600ff;
+    --light-blue: #00f7ff;
+    --red: #ff0000;
+    --yellow: #ffe600;
+    --gray: #727272;
+    --orange: #ff7300;
+    --light-orange: #ffb350;
+    --black: #000000;
+    --green: #7bff00;
+    --purple: #cc00ff;
+    --pink: #ff0095;
+    --brown: #a5440c;
+    --white: #ffffff;
+}
+/* Start BG */
+.bg-blue{
+    background-color: var(--blue) !important;
+}
+.bg-light-blue{
+    background-color: var(--light-blue) !important;
+}
+.bg-red{
+    background-color: var(--red) !important;
+}
+.bg-yellow{
+    background-color: var(--yellow) !important;
+}
+.bg-gray{
+    background-color: var(--gray) !important;
+}
+.bg-orange{
+    background-color: var(--orange) !important;
+}
+.bg-light-orange{
+    background-color: var(--light-orange) !important;
+}
+.bg-black{
+    background-color: var(--black) !important;
+}
+.bg-green{
+    background-color: var(--green) !important;
+}
+.bg-purple{
+    background-color: var(--purple) !important;
+}
+.bg-pink{
+    background-color: var(--pink) !important;
+}
+.bg-brown{
+    background-color: var(--brown) !important;
+}
+/* BG End */
+/* Border Start 1.5 px */
+.border-blue{
+    border: solid var(--blue) 1.5px !important;
+}
+.border-light-blue{
+    border: solid var(--light-blue) 1.5px !important;
+}
+.border-red{
+    border: solid var(--red) 1.5px !important;
+}
+.border-yellow{
+    border: solid var(--yellow) 1.5px !important;
+}
+.border-gray{
+    border: solid var(--gray) 1.5px !important;
+}
+.border-orange{
+    border: solid var(--orange) 1.5px !important;
+}
+.border-light-orange{
+    border: solid var(--light-orange) 1.5px !important;
+}
+.border-black{
+    border: solid var(--black) 1.5px !important;
+}
+.border-green{
+    border: solid var(--green) 1.5px !important;
+}
+.border-purple{
+    border: solid var(--purple) 1.5px !important;
+}
+.border-pink{
+    border: solid var(--pink) 1.5px !important;
+}
+.border-brown{
+    border: solid var(--brown) 1.5px !important;
+}
+/* End Border 1.5px */
+/* Start Display Classes */
+/* Start Basic Displays */
+.d-list-item{
+    display: list-item !important;
+}
+.d-flow-root{
+    display: flow-root !important;
+}
+.d-inhert{
+    display: inherit !important;
+}
+.d-unset{
+    display: unset !important;
+}
+.d-initial{
+    display: initial !important;
+}
+.d-none{
+    display: none !important;
+}
+
+.d-flex-box , .d-flex{
+    display: flexbox;
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+}
+.d-block{
+    display: block !important;
+}
+
+.d-run-in{
+    display: run-in !important;
+}
+.d-contemts{
+    display: contents !important;
+}
+/* End Basic Displays */
+/* Start Inline Displays */
+.d-inline-box{
+    display: -webkit-inline-box;
+    display: -moz-inline-box;
+}
+.d-inline-block{
+    display: inline-block !important;
+}
+.d-inline{
+    display: inline !important;
+}
+.d-inline-flex{
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    display: inline-flexbox;
+}
+/* End Inline Displays */
+/* Start Just Mozila Displays */
+.d-popup{
+    display: -moz-popup !important; 
+}
+.d-marker{
+    display: -moz-marker !important;
+}
+.d-deck{
+    display: -moz-deck !important;
+}
+.d-group-box{
+    display: -moz-groupbox !important;
+}
+.d-box{
+    display: -moz-box !important;
+}
+.d-stack{
+    display: -moz-stack !important;
+}
+.d-inline-stack{
+    display: -moz-inline-stack !important;
+}
+/* End Just Mozila Displays */
+/* Start Table Displays */
+.d-table{
+    display: table !important;
+}
+.d-table-row-group{
+    display: table-row-group !important;   
+}
+.d-table-row{
+    display: table-row !important;
+}
+.d-table-header-group{
+    display: table-header-group !important;
+}
+.d-table-footer-group{
+    display: table-footer-group !important;
+}
+.d-table-column-group{
+    display: table-column-group !important;
+}
+.d-table-column{
+    display: table-column !important;
+}
+.d-table-caption{
+    display: table-caption !important;
+}
+.d-table-cell{
+    display: table-cell !important;
+}
+.d-inline-table{
+    display: inline-table !important;
+}
+/* End Table Displays */
+/* Start Grid Displays */
+.d-grid{
+    display: grid;
+    display: -moz-grid;
+    display: -ms-grid;
+}
+.d-grid-line{
+    display: -moz-grid-line !important;
+}
+.d-inline-grid{
+    display: -ms-inline-grid;
+    display: -moz-inline-grid;
+}
+.d-grid-group{
+    display: -moz-grid-group !important;
+}
+/* End Grid Displays */
+/* Start Ruby Displays */
+.d-ruby{
+    display: ruby !important;
+}
+.d-ruby-text{
+    display: ruby-text !important;
+}
+.d-ruby-text-container{
+    display: ruby-text-container !important;
+}
+.d-ruby-base{
+    display: ruby-base !important;
+}
+.d-ruby-base-container{
+    display: ruby-base-container !important;
+}
+/* End Ruby Displays */
+/* End Display Classes */
+/* Start Flex Classes */
+/* Start Flex directions Classes */
+.f-dir-col{
+    flex-direction: column !important;
+}
+.f-dir-col{
+    flex-direction: column-reverse !important;
+}
+.f-dir-row{
+    flex-direction: row !important;
+}
+.f-dir-rowr{
+    flex-direction: row-reverse !important;
+}
+.f-dir-inherit{
+    flex-direction: inherit !important;
+}
+.f-dir-initial{
+    flex-direction: initial !important;
+}
+.f-dir-unset{
+    flex-direction: unset !important;
+}
+/* End Flex directions Classes */
+/* Start Flex Wrap Classes */
+.f-wrap{
+    flex-wrap: wrap !important;
+}
+.f-wrapr{
+    flex-wrap: wrap-reverse !important;
+}
+.f-nowrap{
+    flex-wrap: nowrap !important;
+}
+.f-wrap-initial{
+    flex-wrap: initial !important;
+}
+.f-wrap-unset{
+    flex-wrap: unset !important;
+}
+.f-wrap-inhert{
+    flex-wrap: inherit !important;
+}
+/* End Flex Wrap Classes */
+/* Start Justify Content Classes */
+.f-j-baseline{
+    justify-content: baseline !important;
+}
+.f-j-center{
+    justify-content: center !important;
+}
+.f-j-end{
+    justify-content: end !important;
+}
+.f-j-first-baseline{
+    justify-content: first baseline !important;
+}
+.f-j-flex-end{
+    justify-content: flex-end !important;
+}
+.f-j-flex-start{
+    justify-content: flex-start !important;
+}
+.f-j-last-baseline{
+    justify-content: last baseline !important;
+}
+.f-j-left{
+    justify-content: left !important;
+}
+.f-j-right{
+    justify-content: right !important;
+}
+.f-j-safe{
+    justify-content: safe !important;
+}
+.f-j-space-around{
+    justify-content: space-around !important;
+}
+.f-j-space-between{
+    justify-content: space-between !important;
+}
+.f-j-space-evenly{
+    justify-content: space-evenly !important;
+}
+.f-j-start{
+    justify-content: start !important;
+}
+.f-j-stretch{
+    justify-content: stretch !important;
+}
+.f-j-unsafe{
+    justify-content: unsafe !important;
+}
+.f-j-inherit{
+    justify-content: inherit !important;
+}
+.f-j-initial{
+    justify-content: initial !important;
+}
+.f-j-unset{
+    justify-content: unset !important;
+}
+/* End Justify Content Classes */
+/* Start Align Items Classes */
+.f-aitem-baseline , .f-align-items-baseline , .f-aitems-baseline{
+    align-items: baseline !important;
+}
+.f-aitem-center , .f-align-items-center , .f-aitems-center{
+    align-items: center !important;
+}
+.f-aitem-flex-end , .f-align-items-flex-end , .f-aitems-flex-end{
+    align-items: flex-end !important;
+}
+.f-aitem-flex-start , .f-align-items-flex-start , .f-aitems-flex-start{
+    align-items: flex-start !important;
+}
+.f-aitem-stretch , .f-align-items-stretch , .f-aitems-stretch{
+    align-items: stretch !important;
+}
+.f-aitem-inherit , .f-align-items-inherit , .f-aitems-inherit{
+    align-items: inherit !important;
+}
+.f-aitem-initial , .f-align-items-initial , .f-aitems-initial{
+    align-items: initial !important;
+}
+.f-aitem-unset , .f-align-items-unset , .f-aitems-unset{
+    align-items: unset !important;
+}
+/* End Align Items Classes */
+/* Start Align Content Classes */
+.f-acont-center , .f-align-content-center , .f-acontent-center , .vertical-center , .vc{
+    align-content: center !important;
+}
+.f-acont-flex-end , .f-align-content-flex-end , .f-acontent-flex-end{
+    align-content: flex-end !important;
+}
+.f-acont-flex-start , .f-align-content-flex-start , .f-acontent-flex-start{
+    align-content: flex-start !important;
+}
+.f-acont- , .f-align-content- , .f-acontent-{
+    align-content: space-around !important;
+}
+.f-acont-space-between , .f-align-content-space-between , .f-acontent-space-between{
+    align-content: space-between !important;
+}
+.f-acont-stretch , .f-align-content-stretch , .f-acontent-stretch{
+    align-content: stretch  !important;
+}
+.f-acont-inherit , .f-align-content-inherit , .f-acontent-inherit{
+    align-content: inherit !important;
+}
+.f-acont-initial , .f-align-content-initial , .f-acontent-initial{
+    align-content: initial !important;
+}
+.f-acont-unset , .f-align-content-unset , .f-acontent-unset{
+    align-content: unset !important;
+}
+/* End Align Content Classes */
+/* Start Flex Order Classes */
+.f-order-0{
+    order: 0 !important;
+}
+.f-order-1{
+    order: 1 !important;
+}
+.f-order-2{
+    order: 2 !important;
+}
+.f-order-3{
+    order: 4 !important;
+}
+.f-order-4{
+    order: 4 !important;
+}
+.f-order-5{
+    order: 5 !important;
+}
+.f-order-6{
+    order: 6 !important;
+}
+.f-order-7{
+    order: 7 !important;
+}
+.f-order-8{
+    order: 8 !important;
+}
+.f-order-9{
+    order: 9 !important;
+}
+.f-order-10{
+    order: 10 !important;
+}
+.f-order-11{
+    order: 11;
+}
+.f-order-12{
+    order: 12;
+}
+.f-order-13{
+    order: 13;
+}
+.f-order-14{
+    order: 14;
+}
+.f-order-15{
+    order: 15;
+}
+.f-order-16{
+    order: 16;
+}
+.f-order-17{
+    order: 17;
+}
+.f-order-18{
+    order: 18;
+}
+.f-order-19{
+    order: 19;
+}
+.f-order-20{
+    order: 20;
+}
+/* End Flex Order Classes */
+/* Start Flex Grow Classes */
+.f-grow-0{
+    flex-grow: 0;
+}
+.f-grow-1{
+    flex-grow: 1;
+}
+.f-grow-2{
+    flex-grow: 2;
+}
+.f-grow-3{
+    flex-grow: 4;
+}
+.f-grow-4{
+    flex-grow: 4;
+}
+.f-grow-5{
+    flex-grow: 5;
+}
+.f-grow-6{
+    flex-grow: 6;
+}
+.f-grow-7{
+    flex-grow: 7;
+}
+.f-grow-8{
+    flex-grow: 8;
+}
+.f-grow-9{
+    flex-grow: 9;
+}
+.f-grow-10{
+    flex-grow: 10;
+}
+.f-grow-11{
+    flex-grow: 11;
+}
+.f-grow-12{
+    flex-grow: 12;
+}
+.f-grow-13{
+    flex-grow: 13;
+}
+.f-grow-14{
+    flex-grow: 14;
+}
+.f-grow-15{
+    flex-grow: 15;
+}
+.f-grow-16{
+    flex-grow: 16;
+}
+.f-grow-17{
+    flex-grow: 17;
+}
+.f-grow-18{
+    flex-grow: 18;
+}
+.f-grow-19{
+    flex-grow: 19;
+}
+.f-grow-20{
+    flex-grow: 20;
+}
+/* End Flex Grow Classes */
+/* Start Flex Shrink Classes */
+.f-shrink-0{
+    flex-shrink: 0;
+}
+.f-shrink-1{
+    flex-shrink: 1;
+}
+.f-shrink-2{
+    flex-shrink: 2;
+}
+.f-shrink-3{
+    flex-shrink: 4;
+}
+.f-shrink-4{
+    flex-shrink: 4;
+}
+.f-shrink-5{
+    flex-shrink: 5;
+}
+.f-shrink-6{
+    flex-shrink: 6;
+}
+.f-shrink-7{
+    flex-shrink: 7;
+}
+.f-shrink-8{
+    flex-shrink: 8;
+}
+.f-shrink-9{
+    flex-shrink: 9;
+}
+.f-shrink-10{
+    flex-shrink: 10;
+}
+.f-shrink-11{
+    flex-shrink: 11;
+}
+.f-shrink-12{
+    flex-shrink: 12;
+}
+.f-shrink-13{
+    flex-shrink: 13;
+}
+.f-shrink-14{
+    flex-shrink: 14;
+}
+.f-shrink-15{
+    flex-shrink: 15;
+}
+.f-shrink-16{
+    flex-shrink: 16;
+}
+.f-shrink-17{
+    flex-shrink: 17;
+}
+.f-shrink-18{
+    flex-shrink: 18;
+}
+.f-shrink-19{
+    flex-shrink: 19;
+}
+.f-shrink-20{
+    flex-shrink: 20;
+}
+/* End Flex shrink Classes */
+/* Start Align Self Classes */
+.f-aself-auto , .f-align-self-auto{
+    align-self: auto;
+}
+.f-aself-baseline , .f-align-self-baseline{
+    align-self: baseline;
+}
+.f-aself-flex-end , .f-align-self-flex-end{
+    align-self: flex-end;
+}
+.f-aself-flex-start , .f-align-self-flex-start{
+    align-self: flex-start;
+}
+.f-aself-center , .f-align-self-center{
+    align-self: center;
+}
+.f-aself-stretch , .f-align-self-stretch{
+    align-self: stretch;
+}
+.f-aself-inherit , .f-align-self-inherit{
+    align-self: inherit;
+}
+.f-aself-initial , .f-align-self-initial{
+    align-self: initial;
+}
+.f-aself-unset , .f-align-self-unset{
+    align-self: unset;
+}
+/* End Align Self Classes */
+/* End Flex Classes */
+/* Start BTN Classes */
+.btn{
+    cursor: pointer;
+    padding: 10px;
+    outline: none;
+    border: 1px solid transparent;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: #ffffff;
+    text-align: center;
+    transition: color 0.5s ease-in-out, background-color 0.5s ease-in-out, border-color 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+}
+/* Start BTN Colors */
+.btn-blue{
+    background-color: #00b7ff;
+    border-color: var(--light-blue);
+    color: #ffffff;
+}
+.btn-blue:hover{
+    background-color: #0095cf;
+}
+.btn-blue:focus{
+    box-shadow: 0 0 0 5px rgba(94, 231, 255, 0.5);
+}
+.btn-red{
+    background-color: #ff0015;
+    border-color: #f86d54;
+    color: #ffffff;
+}
+.btn-red:hover{
+    background-color: #b8000f;
+}
+.btn-red:focus{
+    box-shadow: 0 0 0 5px rgba(255, 138, 138, 0.815);
+}
+.btn-yellow{
+    background-color: #fbff00;
+    border-color: #f0ff64;
+    color: #000000;
+}
+.btn-yellow:hover{
+    background-color: #b8ac00;
+}
+.btn-yellow:focus{
+    box-shadow: 0 0 0 5px rgba(255, 253, 138, 0.815);
+}
+.btn-gray{
+    background-color: #757575;
+    border-color: #adadad;
+    color: #ffffff;
+}
+.btn-gray:hover{
+    background-color: #292929;
+}
+.btn-gray:focus{
+    box-shadow: 0 0 0 5px rgba(128, 128, 128, 0.815);
+}
+.btn-orange{
+    background-color: #ff5b1b;
+    border-color: #ff8d41;
+    color: #ffffff;
+}
+.btn-orange:hover{
+    background-color: #af3200;
+}
+.btn-orange:focus{
+    box-shadow: 0 0 0 5px rgba(255, 114, 72, 0.815);
+}
+.btn-black{
+    background-color: #000000;
+    border-color: #474747;
+    color: #ffffff;
+}
+.btn-black:hover{
+    background-color: #202020;
+}
+.btn-black:focus{
+    box-shadow: 0 0 0 5px rgba(65, 65, 65, 0.815);
+}
+.btn-green{
+    background-color: #48ff00;
+    border-color: #75e475;
+    color: #000000;
+}
+.btn-green:hover{
+    background-color: #0c9600;
+}
+.btn-green:focus{
+    box-shadow: 0 0 0 5px rgba(139, 255, 93, 0.815);
+}
+.btn-purpule{
+    background-color: #e100ff;
+    border-color: #ff83ff;
+    color: #ffffff;
+}
+.btn-purpule:hover{
+    background-color: #960082;
+}
+.btn-purpule:focus{
+    box-shadow: 0 0 0 5px rgba(255, 93, 247, 0.815);
+}
+.btn-pink{
+    background-color: #ff00aa;
+    border-color: #ff83e0;
+    color: #ffffff;
+}
+.btn-pink:hover{
+    background-color: #96005c;
+}
+.btn-pink:focus{
+    box-shadow: 0 0 0 5px rgba(255, 93, 147, 0.815);
+}
+.btn-white{
+    background-color: #ffffff;
+    border-color: #000000;
+    color: #000000;
+}
+.btn-white:hover{
+    background-color: #7e7c7c63;
+}
+.btn-white:focus{
+    box-shadow: 0 0 0 5px rgba(121, 121, 121, 0.815);
+}
+.btn-brown{
+    background-color: #e64e12;
+    border-color: #a54c29;
+    color: #ffffff;
+}
+.btn-brown:hover{
+    background-color: #792a0b;
+}
+.btn-brown:focus{
+    box-shadow: 0 0 0 5px rgba(182, 45, 45, 0.815);
+}
+.btn-allc{
+    background: linear-gradient(288deg, rgba(0,255,12,1) 0%, rgba(16,237,254,1) 13%, rgba(254,21,21,1) 28%, rgba(253,29,222,1) 44%, rgba(160,29,253,1) 56%, rgba(253,153,29,1) 70%, rgba(253,243,29,1) 84%, rgba(122,122,122,1) 93%); 
+    border-color: #ffffff;
+    color: #ffffff;
+}
+.btn-allc:hover{
+    background: linear-gradient(288deg, rgba(0,118,6,1) 0%, rgba(0,111,120,1) 13%, rgba(153,0,0,1) 28%, rgba(103,0,89,1) 44%, rgba(54,0,93,1) 56%, rgba(139,77,0,1) 70%, rgba(123,118,0,1) 84%, rgba(49,49,49,1) 93%); 
+}
+.btn-allc:focus{
+    box-shadow: 0 0 0 5px rgba(30, 255, 0, 0.815);
+}
+/* End BTN Colors */
+/* Start BTN Modes */
+.btn-disable{
+    opacity: 0.40;
+    cursor: not-allowed;
+}
+.btn-disable:focus{
+    box-shadow: 0 0 0 0;
+}
+.btn-circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+/* End BTN Modes */
+/* End BTN Classes */
+/* Start Text Classes */
+/* Start Text Colors Classes */
+.text-blue , .txt-blue{
+    color: var(--blue);
+}
+.text-blue::selection , .txt-blue::selection{
+    color: var(--white);
+    background-color: var(--blue);
+}
+.text-light-blue , .txt-light-blue{
+    color: var(--light-blue);
+}
+.text-light-blue::selection , .txt-light-blue::selection{
+    color: var(--black);
+    background-color: var(--light-blue);
+}
+.text-red , .txt-red{
+    color: var(--red);
+}
+.text-red::selection , .txt-red::selection{
+    color: var(--black);
+    background-color: var(--red);
+}
+.text-yellow , .txt-yellow{
+    color: var(--yellow);
+}
+.text-yellow::selection , .txt-yellow::selection{
+    color: var(--black);
+    background-color: var(--yellow);
+}
+.text-gray , .txt-gray{
+    color: var(--gray);
+}
+.text-gray::selection , .txt-gray::selection{
+    color: var(--black);
+    background-color: var(--gray);
+}
+.text-orange , .txt-orange{
+    color: var(--orange);
+}
+.text-orange::selection , .txt-orange::selection{
+    color: var(--black);
+    background-color: var(--orange);
+}
+.text-light-orange , .txt-light-orange{
+    color: var(--light-orange);
+}
+.text-light-orange::selection , .txt-light-orange::selection{
+    color: var(--black);
+    background-color: var(--light-orange);
+}
+.text-black , .txt-black{
+    color: var(--black);
+}
+.text-black::selection , .txt-black::selection{
+    color: var(--white);
+    background-color: var(--black);
+}
+.text-green , .txt-green{
+    color: var(--green);
+}
+.text-green::selection , .txt-green::selection{
+    color: var(--black);
+    background-color: var(--green);
+}
+.text-purpule , .txt-purpule{
+    color: var(--purple);
+}
+.text-purpule::selection , .txt-purpule::selection{
+    color: var(--black);
+    background-color: var(--purple);
+}
+.text-pink , .txt-pink{
+    color: var(--pink);
+}
+.text-pink::selection , .txt-pink::selection{
+    color: var(--black);
+    background-color: var(--pink);
+}
+.text-brown , .txt-brown{
+    color: var(--brown);
+}
+.text-brown::selection , .txt-brown::selection{
+    color: var(--black);
+    background-color: var(--brown);
+}
+.text-white , .txt-white{
+    color: var(--white);
+}
+.text-white::selection , .txt-white::selection{
+    color: var(--black);
+    background-color: var(--white);
+}
+/* End Text Colors Classes */
+/* Start Text Modes */
+.text , .txt{
+    cursor: text;
+}
+.title{
+    font-size: 88;
+    font-weight: bold;
+}
+.text-center{
+    text-align: center !important;
+}
+/* End Text Modes */
+/* End Text Classes */
+/* Start Ferdowsi Framework Grid Classes */
+.col-10{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-10 *{
+    flex-shrink: 0;
+}
+/* End Ferdosi Framework Grid Classes */

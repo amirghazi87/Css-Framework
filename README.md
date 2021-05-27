@@ -1,6 +1,6 @@
-# Ferdowsi-CSS-Framework
+# CSS-Framework
 It is write in css and js
-## Why Ferdowsi CSS Framework?
+## Why CSS Framework?
 - The new Grid System
 - A lot of classes
 - Support
